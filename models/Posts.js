@@ -6,9 +6,9 @@ const PostSchema = new schema({
         type : String,
         required : true,
     },
-    tags: [{ body: String}],
+    tags: [{ tag: String}],
     author: String,
-    body:   String,
+    content:   String,
     date: { 
         type: Date, 
         default: Date.now 
