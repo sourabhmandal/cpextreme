@@ -22,11 +22,13 @@ mongoose
 
 
 //response variables to routes home - (files to refer to when using a route)
-const {homepage, cft} = require('../routes/home.js');
+const {homepage} = require('../routes/home.js');
+const {networkhome} = require('../routes/networking.js');
+const {ctfhome} = require('../routes/ctf.js');
 // User (Frontend) Routes
 app.get('/', homepage);
-app.get('/network-concepts', cft);
-app.get('/capture-the-flag', cft);
+app.get('/network-concepts', networkhome);
+app.get('/capture-the-flag', ctfhome);
 
 
 
