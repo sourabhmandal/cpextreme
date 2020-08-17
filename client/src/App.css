@@ -1,0 +1,15 @@
+.titlebar{
+    background-color: #8382df;
+}
+
+.titlebar-title{
+    background-color: #8482df00;
+    border: 0px solid rgba(0, 0, 0, 0);
+    list-style-type: none;
+}
+
+.titlebar-button{
+    background-color: #8482df00;
+    border: none;
+    outline:none;
+}
