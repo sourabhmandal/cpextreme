@@ -13,3 +13,8 @@
     border: none;
     outline:none;
 }
+
+.tableList > thead > tr{
+    background-color: #b8b7f3;
+    outline-color: #b8b7f3 !important;
+}

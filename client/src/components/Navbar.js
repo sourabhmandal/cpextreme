@@ -36,13 +36,13 @@ class TopNavbar extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/">Computer Network</NavLink>
+                        <NavLink href="/table">Computer Network</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">Capture the flag</NavLink>
+                        <NavLink href="/table">Capture the flag</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">Web Hacking</NavLink>
+                        <NavLink href="/table">Web Hacking</NavLink>
                     </NavItem>
                     </Nav>
             </Collapse>
